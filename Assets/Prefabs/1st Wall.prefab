@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 222468111002525044}
   - component: {fileID: 114976458385491938}
   - component: {fileID: 114604684843636638}
+  - component: {fileID: 114691339403637082}
   m_Layer: 5
   m_Name: RightButton
   m_TagString: Untagged
@@ -129,6 +130,7 @@ GameObject:
   - component: {fileID: 222586355475031826}
   - component: {fileID: 114977366829945662}
   - component: {fileID: 114552905110384210}
+  - component: {fileID: 114636406265250242}
   m_Layer: 5
   m_Name: LeftButton
   m_TagString: Untagged
@@ -262,7 +264,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114977366829945662}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114636406265250242}
+        m_MethodName: OnClick
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114604684843636638
@@ -303,9 +316,52 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114976458385491938}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114691339403637082}
+        m_MethodName: OnClick
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &114636406265250242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1725834816531678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 479449bd760153944ab1f4fb331c5f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walls:
+  - {fileID: 1024820989198468}
+  - {fileID: 1116613855280438, guid: f4f1d6ba961cb0c438d3a6f4c22892c0, type: 2}
+  - {fileID: 1728407874364974, guid: b0a872b715a623641bce8705eae25132, type: 2}
+  - {fileID: 1097367237658386, guid: 07b17d903b2b19e498854773c9d81ebc, type: 2}
+--- !u!114 &114691339403637082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1126832614233240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a885c573576397f4b97488776af71ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walls:
+  - {fileID: 1024820989198468}
+  - {fileID: 1116613855280438, guid: f4f1d6ba961cb0c438d3a6f4c22892c0, type: 2}
+  - {fileID: 1728407874364974, guid: b0a872b715a623641bce8705eae25132, type: 2}
+  - {fileID: 1097367237658386, guid: 07b17d903b2b19e498854773c9d81ebc, type: 2}
 --- !u!114 &114700825284322850
 MonoBehaviour:
   m_ObjectHideFlags: 1
