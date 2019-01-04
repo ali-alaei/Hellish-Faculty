@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f910d791eaee69f4a84d6a4c9fb8ef7e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  VaseCloseUp: {fileID: 1509622784710660, guid: 3088189f2708968479b0cfdf95377922,
+  closeUpObject: {fileID: 1509622784710660, guid: 3088189f2708968479b0cfdf95377922,
     type: 2}
 --- !u!114 &114297756864325232
 MonoBehaviour:

@@ -58,6 +58,7 @@ GameObject:
   - component: {fileID: 114111618389029820}
   - component: {fileID: 114852963664292416}
   - component: {fileID: 114889957595564554}
+  - component: {fileID: 114840639723441374}
   m_Layer: 5
   m_Name: jacket button
   m_TagString: Untagged
@@ -77,6 +78,7 @@ GameObject:
   - component: {fileID: 114479653155693256}
   - component: {fileID: 114700825284322850}
   - component: {fileID: 114740150584567032}
+  - component: {fileID: 114613764283073332}
   m_Layer: 5
   m_Name: hanger button
   m_TagString: Untagged
@@ -189,6 +191,19 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114613764283073332
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1364462218934716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f910d791eaee69f4a84d6a4c9fb8ef7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  closeUpObject: {fileID: 1241318100166852, guid: 7174b735bb513434e8e0da5fe616587e,
+    type: 2}
 --- !u!114 &114700825284322850
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -258,6 +273,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hangerCloseShot: {fileID: 1241318100166852, guid: 7174b735bb513434e8e0da5fe616587e,
+    type: 2}
+--- !u!114 &114840639723441374
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1361565437177494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f910d791eaee69f4a84d6a4c9fb8ef7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  closeUpObject: {fileID: 1241318100166852, guid: 7174b735bb513434e8e0da5fe616587e,
     type: 2}
 --- !u!114 &114852318522960724
 MonoBehaviour:
