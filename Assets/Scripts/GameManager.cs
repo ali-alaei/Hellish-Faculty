@@ -8,7 +8,7 @@ public class GameManager : MonoBehaviour {
 
     // Use this for initialization
     void Awake () {
-        Instantiate(walls[3]);
+        Instantiate(walls[2]);
         
 		
 	}
