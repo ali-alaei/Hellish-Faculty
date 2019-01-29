@@ -784,6 +784,36 @@ Prefab:
       propertyPath: m_AnchorMax.x
       value: 0.67125005
       objectReference: {fileID: 0}
+    - target: {fileID: 114737343698766356, guid: b0a872b715a623641bce8705eae25132,
+        type: 2}
+      propertyPath: walls.Array.data[0]
+      value: 
+      objectReference: {fileID: 934051965}
+    - target: {fileID: 114737343698766356, guid: b0a872b715a623641bce8705eae25132,
+        type: 2}
+      propertyPath: walls.Array.data[1]
+      value: 
+      objectReference: {fileID: 976587388}
+    - target: {fileID: 114737343698766356, guid: b0a872b715a623641bce8705eae25132,
+        type: 2}
+      propertyPath: walls.Array.data[3]
+      value: 
+      objectReference: {fileID: 1431209036}
+    - target: {fileID: 114293323615941644, guid: b0a872b715a623641bce8705eae25132,
+        type: 2}
+      propertyPath: walls.Array.data[0]
+      value: 
+      objectReference: {fileID: 934051965}
+    - target: {fileID: 114293323615941644, guid: b0a872b715a623641bce8705eae25132,
+        type: 2}
+      propertyPath: walls.Array.data[1]
+      value: 
+      objectReference: {fileID: 976587388}
+    - target: {fileID: 114293323615941644, guid: b0a872b715a623641bce8705eae25132,
+        type: 2}
+      propertyPath: walls.Array.data[3]
+      value: 
+      objectReference: {fileID: 1431209036}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b0a872b715a623641bce8705eae25132, type: 2}
   m_IsPrefabParent: 0
