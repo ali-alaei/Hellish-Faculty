@@ -28,7 +28,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1208795534225466
 GameObject:
   m_ObjectHideFlags: 0
@@ -131,7 +131,6 @@ GameObject:
   - component: {fileID: 222002214117993002}
   - component: {fileID: 114806132363683764}
   - component: {fileID: 114554161673891640}
-  - component: {fileID: 114001716487079616}
   m_Layer: 5
   m_Name: Door
   m_TagString: Untagged
@@ -152,18 +151,6 @@ Transform:
   m_Father: {fileID: 224485105821923544}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114001716487079616
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1767987090443658}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f910d791eaee69f4a84d6a4c9fb8ef7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  closeUpObject: {fileID: 0}
 --- !u!114 &114106496117668490
 MonoBehaviour:
   m_ObjectHideFlags: 1
