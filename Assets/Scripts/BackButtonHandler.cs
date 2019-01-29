@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-public class BackButtonHandler : MonoBehaviour {
+public class BackButtonHandler : MonoBehaviour
+{
 
+	public GameObject parentWall;
 	// Use this for initialization
 	void Start () {
         Button backButton = gameObject.GetComponentInChildren<Button>();
@@ -12,12 +14,10 @@ public class BackButtonHandler : MonoBehaviour {
 
     private void DestroyScene()
     {
-        Destroy(gameObject);
-
+	    gameObject.SetActive(false);
+	    parentWall.SetActive(true);
+        
     }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
 }

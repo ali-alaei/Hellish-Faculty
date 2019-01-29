@@ -10,15 +10,14 @@ public class ZoomButtonHandler : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        Button tableButton = gameObject.GetComponent<Button>();
-        tableButton.onClick.AddListener(ZoomIn);
+        Button objectButton = gameObject.GetComponent<Button>();
+        objectButton.onClick.AddListener(ZoomIn);
     }
 
     private void ZoomIn()
     {
-
-        Instantiate(closeUpObject);
-
+       transform.parent.gameObject.SetActive(false);
+       closeUpObject.SetActive(true);
     }
 
     // Update is called once per frame
