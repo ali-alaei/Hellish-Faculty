@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 222033926176140776}
   - component: {fileID: 114084253790443178}
   - component: {fileID: 114557616575463342}
+  - component: {fileID: 114230085724848022}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -110,7 +111,6 @@ GameObject:
   - component: {fileID: 223020280601846084}
   - component: {fileID: 114386245205514572}
   - component: {fileID: 114683324862485372}
-  - component: {fileID: 114370666785146502}
   m_Layer: 5
   m_Name: First Vase Close Up
   m_TagString: Untagged
@@ -176,12 +176,12 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114370666785146502
+--- !u!114 &114230085724848022
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1634114638909648}
+  m_GameObject: {fileID: 1261686473906596}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7ddfc056bcb7b8e4dbea28d24682f46a, type: 3}

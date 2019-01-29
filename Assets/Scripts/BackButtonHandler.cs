@@ -8,13 +8,14 @@ public class BackButtonHandler : MonoBehaviour
 	public GameObject parentWall;
 	// Use this for initialization
 	void Start () {
-        Button backButton = gameObject.GetComponentInChildren<Button>();
-        backButton.onClick.AddListener(DestroyScene);
+        //Button backButton = gameObject.GetComponentInChildren<Button>();
+        gameObject.GetComponent<Button>().onClick.AddListener(OnBack);
     }
 
-    private void DestroyScene()
+    private void OnBack()
     {
-	    gameObject.SetActive(false);
+	    //gameObject.SetActive(false);
+	    this.transform.parent.gameObject.SetActive(false);
 	    parentWall.SetActive(true);
         
     }

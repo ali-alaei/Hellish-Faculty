@@ -22,14 +22,13 @@ GameObject:
   - component: {fileID: 223508274614883626}
   - component: {fileID: 114010345045636922}
   - component: {fileID: 114374700432705444}
-  - component: {fileID: 114542155289641508}
   m_Layer: 5
   m_Name: Drawer Close Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1225067956172498
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,6 +146,7 @@ GameObject:
   - component: {fileID: 222227753633950310}
   - component: {fileID: 114563852357952584}
   - component: {fileID: 114483298451061154}
+  - component: {fileID: 114129265760093528}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -277,6 +277,18 @@ MonoBehaviour:
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0
+--- !u!114 &114129265760093528
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1706228068946612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ddfc056bcb7b8e4dbea28d24682f46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentWall: {fileID: 0}
 --- !u!114 &114275280715902744
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -470,18 +482,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114542155289641508
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1180056493555584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ddfc056bcb7b8e4dbea28d24682f46a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentWall: {fileID: 0}
 --- !u!114 &114563852357952584
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 222291372931380064}
   - component: {fileID: 114611984164837566}
   - component: {fileID: 114083950436107536}
+  - component: {fileID: 114588103401982914}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -57,14 +58,13 @@ GameObject:
   - component: {fileID: 223218640884238908}
   - component: {fileID: 114922335905483110}
   - component: {fileID: 114445169714555974}
-  - component: {fileID: 114003647437492596}
   m_Layer: 5
   m_Name: Second Vase Close Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1583264895908252
 GameObject:
   m_ObjectHideFlags: 0
@@ -131,18 +131,6 @@ Transform:
   m_Father: {fileID: 224842569930298302}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114003647437492596
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1501442310947362}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ddfc056bcb7b8e4dbea28d24682f46a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentWall: {fileID: 0}
 --- !u!114 &114083950436107536
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -259,6 +247,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &114588103401982914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1439236250364846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ddfc056bcb7b8e4dbea28d24682f46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentWall: {fileID: 0}
 --- !u!114 &114604920488912656
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -22,7 +22,6 @@ GameObject:
   - component: {fileID: 223075528795917666}
   - component: {fileID: 114609761637325476}
   - component: {fileID: 114832339701201948}
-  - component: {fileID: 114183135045622838}
   m_Layer: 5
   m_Name: Radio Close Up
   m_TagString: Untagged
@@ -41,6 +40,7 @@ GameObject:
   - component: {fileID: 222085539615655048}
   - component: {fileID: 114955025384872164}
   - component: {fileID: 114336483337262278}
+  - component: {fileID: 114277510412941468}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -113,18 +113,6 @@ Transform:
   m_Father: {fileID: 224759442287107450}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114183135045622838
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1154985030891400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ddfc056bcb7b8e4dbea28d24682f46a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentWall: {fileID: 0}
 --- !u!114 &114223549897411402
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -152,6 +140,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114277510412941468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1515091895117522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ddfc056bcb7b8e4dbea28d24682f46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentWall: {fileID: 0}
 --- !u!114 &114336483337262278
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -39,6 +39,7 @@ GameObject:
   - component: {fileID: 222661718518066226}
   - component: {fileID: 114309429054618156}
   - component: {fileID: 114450574496142258}
+  - component: {fileID: 114163424066765916}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -75,7 +76,6 @@ GameObject:
   - component: {fileID: 223762871758160626}
   - component: {fileID: 114714696410165378}
   - component: {fileID: 114878900837407184}
-  - component: {fileID: 114857161479705772}
   - component: {fileID: 222378081575866704}
   m_Layer: 5
   m_Name: 'Painting Close Up '
@@ -83,7 +83,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1957651848227884
 GameObject:
   m_ObjectHideFlags: 0
@@ -128,6 +128,18 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+--- !u!114 &114163424066765916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1130998544593512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ddfc056bcb7b8e4dbea28d24682f46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentWall: {fileID: 0}
 --- !u!114 &114309429054618156
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -303,18 +315,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114857161479705772
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1632590924888180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ddfc056bcb7b8e4dbea28d24682f46a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentWall: {fileID: 0}
 --- !u!114 &114878900837407184
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -457,7 +457,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.032, y: 0.04935702}
   m_AnchorMax: {x: 0.20600002, y: 0.17389257}
-  m_AnchoredPosition: {x: 0.1800232, y: 0.13000488}
+  m_AnchoredPosition: {x: 0.17999268, y: 0.13000488}
   m_SizeDelta: {x: 1.3599854, y: 1.75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224946693602817328
@@ -475,6 +475,6 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.312, y: 0.1097506}
   m_AnchorMax: {x: 0.68, y: 0.889632}
-  m_AnchoredPosition: {x: 2.9999924, y: -0.0000076293945}
+  m_AnchoredPosition: {x: 3, y: 0}
   m_SizeDelta: {x: -0.3999939, y: 1.7000122}
   m_Pivot: {x: 0.5, y: 0.5}

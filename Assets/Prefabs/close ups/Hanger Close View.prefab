@@ -40,7 +40,6 @@ GameObject:
   - component: {fileID: 223887773531998794}
   - component: {fileID: 114274733739089190}
   - component: {fileID: 114283461020751962}
-  - component: {fileID: 114885161013779664}
   - component: {fileID: 222012557324525446}
   - component: {fileID: 114878989582426358}
   m_Layer: 5
@@ -78,8 +77,9 @@ GameObject:
   - component: {fileID: 222684300488924796}
   - component: {fileID: 114111694166861838}
   - component: {fileID: 114189191517411412}
+  - component: {fileID: 114373230308351624}
   m_Layer: 5
-  m_Name: Button
+  m_Name: BackButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,6 +285,18 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+--- !u!114 &114373230308351624
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1798641091642662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ddfc056bcb7b8e4dbea28d24682f46a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentWall: {fileID: 0}
 --- !u!114 &114689305764562664
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -330,18 +342,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114885161013779664
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1241318100166852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7ddfc056bcb7b8e4dbea28d24682f46a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentWall: {fileID: 0}
 --- !u!222 &222012557324525446
 CanvasRenderer:
   m_ObjectHideFlags: 1
